@@ -8,7 +8,7 @@ A complete website made for christmas and new year. HTML and CSS used for this p
 
 ## Screenshots
 
-![App Screenshot](https://github.com/jkm243/dashboard-product-php/blob/master/img/Video_220226045316.gif)
+![App Screenshot](https://github.com/jkm243/Christmas-New-Year-Html-Css-Js/blob/master/capture.jpeg)
 
 
 ## Tech Stack
