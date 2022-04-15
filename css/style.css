@@ -1,0 +1,63 @@
+*{margin:0; padding:0;}
+body{
+  font-family: raleway;
+}
+header{
+  background-color: #111111;
+}
+header nav ul li{
+  color: red;
+  font-size: 1.2em;
+  display: inline-block;
+  list-style-type: none;
+  padding: 3% 3%;
+  transition: all 0.5s ease-in-out;
+}
+header nav ul li:hover{
+  color: white;
+  transform: scale(1.5);
+  cursor: pointer;
+}
+header nav{
+  margin-left: 50%;
+}
+.image_accueil{
+  width: 100%;
+}
+.corps{
+  margin: 3% 3%;
+}
+.corps2{
+  margin: 3% 3%;
+  text-align: right;
+}
+.bgd{
+  background-image: url(../img/christmas2.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 150px;
+}
+.bgd2{
+  background-image: url(../img/christmas3.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 150px;
+}
+.bgd3{
+  background-image: url(../img/christmas4.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 150px;
+}
+.footer{
+  background-color: #111111;
+}
