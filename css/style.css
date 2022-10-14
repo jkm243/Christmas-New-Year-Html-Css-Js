@@ -1,9 +1,33 @@
 *{margin:0; padding:0;}
 body{
   font-family: raleway;
+  font-weight: 600;
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 10px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+  transition: all 0.4s ease-in-out;
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
 }
 header{
   background-color: #111111;
+  position: fixed;
+  width: 100%;
 }
 header nav ul li{
   color: red;
@@ -60,4 +84,82 @@ header nav{
 }
 .footer{
   background-color: #111111;
+}
+.foo{
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+}
+
+.slidein {
+  -moz-animation-duration: 3s;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -moz-animation-name: slidein;
+  -webkit-animation-name: slidein;
+  animation-name: slidein;
+  -moz-animation-iteration-count: 3;
+  -webkit-animation-iteration-count: 3;
+  animation-iteration-count: 3;
+  -moz-animation-direction: alternate;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+   margin-left: 0%;
+   width: 100%;
+ }
+}
+
+@-webkit-keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+   margin-left: 0%;
+   width: 100%;
+ }
+}
+
+/* // Animation page */
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+.reveal-visible {
+  opacity: 1;
+  transform: translateY(0);
+  transition: 1s cubic-bezier(0.5, 0, 0, 1);
+}
+
+.RightToLeft {
+  opacity: 0;
+  transform: translateX(30px);
+}
+
+.RightToLeft-visible {
+  opacity: 1;
+  transform: translateX(0);
+  transition: 1s cubic-bezier(0.5, 0, 0, 1);
+}
+
+.LeftToRight {
+  opacity: 0;
+  transform: translateX(-30px);
+}
+
+.LeftToRight-visible {
+  opacity: 1;
+  transform: translateX(0);
+  transition: 1s cubic-bezier(0.5, 0, 0, 1);
 }

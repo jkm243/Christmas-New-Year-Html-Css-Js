@@ -1,15 +1,48 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
   <meta charset="UTF-8">
   <title>NoNo2019</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/responsive.css">
   <link rel="icon" href="img/logo.ico" type="images">
+
+  <!-- lien Boostrap -->
+  <link rel="stylesheet" href="vendor/bootstrap-4.1/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+  <!-- Lien Fonts -->
+  <link rel="stylesheet" href="css/font-face.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+
+  <!-- Lien FontAwesome -->
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+  <!-- Lien magnific popup -->
+  <link rel="stylesheet" href="css/magnific-popup.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
 </head>
+
 <body>
+  <!-- HEADER -->
   <header>
-    <nav>
+    <nav class="reveal">
       <ul>
         <li>Noel</li>
         <li>N.An</li>
@@ -18,37 +51,61 @@
       </ul>
     </nav>
   </header>
+  <!-- END OF HEADER -->
+
+  <!-- HERO SECTION -->
   <section class="main">
     <img class="image_accueil" src="img/christmas.jpg" alt="">
     <div class="corps2">
       <h1>Les fêtes de fin d'année</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam vero, id temporibus. Ipsam sapiente laboriosam quae, assumenda magnam eum ab. Vitae ducimus veritatis nisi numquam quo suscipit omnis amet aliquam!</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam vero, id temporibus. Ipsam sapiente
+        laboriosam quae, assumenda magnam eum ab. Vitae ducimus veritatis nisi numquam quo suscipit omnis amet aliquam!
+      </p>
     </div>
   </section>
+  <!-- END HERO SECTION -->
+
+  <button onclick="topFunction()" id="myBtn" class="reveal" title="Go to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- BODY -->
   <section class="imgBgd">
     <div class="bgd"></div>
-    <div class="corps">
+    <div class="corps LeftToRight">
       <h1>Les fêtes de fin d'année</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam vero, id temporibus. Ipsam sapiente laboriosam quae, assumenda magnam eum ab. Vitae ducimus veritatis nisi numquam quo suscipit omnis amet aliquam!</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam vero, id temporibus. Ipsam sapiente
+        laboriosam quae, assumenda magnam eum ab. Vitae ducimus veritatis nisi numquam quo suscipit omnis amet aliquam!
+      </p>
     </div>
     <div class="bgd2"></div>
-    <div class="corps2">
+    <div class="corps2 RightToLeft">
       <h1>Les fêtes de fin d'année</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam vero, id temporibus. Ipsam sapiente laboriosam quae, assumenda magnam eum ab. Vitae ducimus veritatis nisi numquam quo suscipit omnis amet aliquam!</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam vero, id temporibus. Ipsam sapiente
+        laboriosam quae, assumenda magnam eum ab. Vitae ducimus veritatis nisi numquam quo suscipit omnis amet aliquam!
+      </p>
     </div>
     <div class="bgd3"></div>
-    <div class="corps">
+    <div class="corps LeftToRight">
       <h1>Les fêtes de fin d'année</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam vero, id temporibus. Ipsam sapiente laboriosam quae, assumenda magnam eum ab. Vitae ducimus veritatis nisi numquam quo suscipit omnis amet aliquam!</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam vero, id temporibus. Ipsam sapiente
+        laboriosam quae, assumenda magnam eum ab. Vitae ducimus veritatis nisi numquam quo suscipit omnis amet aliquam!
+      </p>
     </div>
   </section>
+  <!-- END BODY  -->
+
+  <!-- FOOTER -->
   <footer>
-    <ul>
+    <ul class="foo reveal">
       <li>Contact</li>
       <li>Numero</li>
       <li>Adresse</li>
       <li>Pays</li>
     </ul>
   </footer>
+  <!-- END FOOTER -->
 </body>
+<script src="js/main.js"></script>
+
 </html>
